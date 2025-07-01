@@ -3,7 +3,11 @@
 .PHONY: all clean dev-server
 
 
-all: public/elm.js public/index.html public/static/background.jpg
+STATIC_FILES = $(notdir $(wildcard static/*))
+PUBLIC_STATIC_FILES = $(addprefix public/static/, $(STATIC_FILES))
+
+
+all: public/elm.js public/index.html public/styles.css $(PUBLIC_STATIC_FILES)
 
 
 clean:
@@ -14,13 +18,13 @@ dev-server:
 	caddy run --config Caddyfile.dev
 
 
-public/index.html: index.html
+public/%: %
 	mkdir -p public
-	cp index.html public/index.html
+	cp $< public/$<
 
 
 public/elm.js: src/Main.elm
-	elm make src/Main.elm --output=public/elm.js
+	elm make src/Main.elm --optimize --output=public/elm.js
 
 
 public/static/%: static/%
