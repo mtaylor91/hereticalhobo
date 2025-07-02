@@ -12,11 +12,14 @@ type alias Flags = ()
 
 
 type alias Model =
-  { key : Key }
+  { key : Key
+  , url : Url
+  }
 
 
 type Msg
   = Noop
+  | Navigate Url
   | LinkClicked Browser.UrlRequest
 
 
@@ -33,8 +36,10 @@ main =
 
 
 init : Flags -> Url -> Key -> ( Model, Cmd Msg )
-init _ _ key =
-  ( { key = key }
+init _ url key =
+  ( { key = key
+    , url = url
+    }
   , Cmd.none
   )
 
@@ -60,7 +65,11 @@ viewContent : Html Msg
 viewContent =
   div
     [ class "content" ]
-    [ viewPageHeader ]
+    ( [ viewPageHeader ] ++ viewMainContent )
+
+
+viewMainContent : List (Html Msg)
+viewMainContent = []
 
 
 viewPageHeader : Html Msg
@@ -89,6 +98,10 @@ update msg model =
   case msg of
     Noop ->
       ( model, Cmd.none )
+    Navigate url ->
+      ( { model | url = url }
+      , Cmd.none
+      )
     LinkClicked urlRequest ->
       case urlRequest of
         Browser.Internal url ->
@@ -98,8 +111,8 @@ update msg model =
 
 
 onUrlChange : Url -> Msg
-onUrlChange _ =
-  Noop
+onUrlChange url =
+  Navigate url
 
 
 onUrlRequest : Browser.UrlRequest -> Msg
