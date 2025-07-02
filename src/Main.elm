@@ -1,9 +1,11 @@
 module Main exposing (main)
 
 import Browser
+import Browser.Navigation exposing (Key)
 import Html.Attributes exposing (class, href, style)
 import Html exposing (Html, a, div, h1, text)
 import Html.Events exposing (onClick)
+import Url exposing (Url)
 
 
 type alias Flags = ()
@@ -17,29 +19,19 @@ type Msg = Noop
 
 main : Program () Model Msg
 main =
-  Browser.document
+  Browser.application
     { init = init
-    , update = update
-    , subscriptions = subscriptions
     , view = view
+    , update = update
+    , onUrlChange = onUrlChange
+    , onUrlRequest = onUrlRequest
+    , subscriptions = subscriptions
     }
 
 
-init : Flags -> ( Model, Cmd Msg )
-init _ =
+init : Flags -> Url -> Key -> ( Model, Cmd Msg )
+init _ _ _ =
   ( {}, Cmd.none )
-
-
-update : Msg -> Model -> ( Model, Cmd Msg )
-update msg model =
-  case msg of
-    Noop ->
-      ( model, Cmd.none )
-
-
-subscriptions : Model -> Sub Msg
-subscriptions _ =
-  Sub.none
 
 
 view : Model -> Browser.Document Msg
@@ -120,3 +112,25 @@ viewFooter =
       ]
       [ text "View Source on GitHub" ]
     ]
+
+
+update : Msg -> Model -> ( Model, Cmd Msg )
+update msg model =
+  case msg of
+    Noop ->
+      ( model, Cmd.none )
+
+
+onUrlChange : Url -> Msg
+onUrlChange _ =
+  Noop
+
+
+onUrlRequest : Browser.UrlRequest -> Msg
+onUrlRequest _ =
+  Noop
+
+
+subscriptions : Model -> Sub Msg
+subscriptions _ =
+  Sub.none
