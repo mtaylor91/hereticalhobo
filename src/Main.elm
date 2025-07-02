@@ -93,7 +93,6 @@ update msg model =
       case urlRequest of
         Browser.Internal url ->
           ( model, Browser.Navigation.pushUrl model.key (Url.toString url) )
-
         Browser.External externalUrl ->
           ( model, Browser.Navigation.load externalUrl )
 
