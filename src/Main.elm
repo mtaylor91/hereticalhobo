@@ -42,18 +42,14 @@ init _ _ key =
 view : Model -> Browser.Document Msg
 view model =
   { title = "Man in a Van"
-  , body = viewBody
+  , body = viewContent
   }
 
 
-viewBody : List (Html Msg)
-viewBody =
+viewContent : List (Html Msg)
+viewContent =
   [ div
-    [ style "display" "flex"
-    , style "flex-direction" "column"
-    , style "width" "100dvw"
-    , style "height" "100dvh"
-    ]
+    [ class "container" ]
     [ viewHero
     , viewFooter
     ]
@@ -63,39 +59,16 @@ viewBody =
 viewHero : Html Msg
 viewHero =
   div
-    [ style "margin" "0"
-    , style "padding" "0"
-    , style "display" "flex"
-    , style "flex-direction" "column"
-    , style "justify-content" "flex-start"
-    , style "align-items" "center"
-    , style "text-align" "center"
-    , style "flex-grow" "1"
-    , class "hero-background"
-    , style "background-repeat" "no-repeat"
-    , style "background-size" "cover"
-    ]
-    [ viewPageHeader
-    ]
+    [ class "hero" ]
+    [ viewPageHeader ]
 
 
 viewPageHeader : Html Msg
 viewPageHeader =
   div
-    [ style "display" "flex"
-    , style "width" "100%"
-    , style "flex-direction" "column"
-    , style "justify-content" "center"
-    , style "align-items" "center"
-    ]
+    [ class "page-header" ]
     [ h1
-      [ class "hero-title"
-      , style "margin" "0"
-      , style "padding" "0"
-      , style "font-family" "Barrio, system-ui, sans-serif"
-      , style "font-weight" "400"
-      , style "font-style" "normal"
-      ]
+      [ class "hero-title" ]
       [ text "Man in a Van" ]
     ]
 
@@ -103,18 +76,10 @@ viewPageHeader =
 viewFooter : Html Msg
 viewFooter =
   div
-    [ class "footer"
-    , style "display" "flex"
-    , style "flex-direction" "column"
-    , style "justify-content" "center"
-    , style "align-items" "center"
-    ]
+    [ class "footer" ]
     [ text "Made with ❤️ in Elm"
     , a
-      [ href "https://github.com/mtaylor91/maninavan-ca-site"
-      , style "text-decoration" "underline"
-      , style "color" "inherit"
-      ]
+      [ href "https://github.com/mtaylor91/maninavan-ca-site" ]
       [ text "View Source on GitHub" ]
     ]
 
