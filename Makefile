@@ -1,13 +1,14 @@
 
 
-.PHONY: all clean dev-server
+.PHONY: all clean dev-server publish
 
 
-STATIC_FILES = $(notdir $(wildcard static/*))
-PUBLIC_STATIC_FILES = $(addprefix public/static/, $(STATIC_FILES))
+STATIC_FILES := $(notdir $(wildcard static/*))
+PUBLIC_STATIC_FILES := $(addprefix public/static/, $(STATIC_FILES))
+PUBLIC := public/elm.js public/index.html public/styles.css $(PUBLIC_STATIC_FILES)
 
 
-all: public/elm.js public/index.html public/styles.css $(PUBLIC_STATIC_FILES)
+all: ${PUBLIC}
 
 
 clean:
@@ -16,6 +17,10 @@ clean:
 
 dev-server:
 	caddy run --config Caddyfile.dev
+
+
+publish: ${PUBLIC}
+	./bin/publish.sh
 
 
 public/%: %
