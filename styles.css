@@ -18,7 +18,7 @@ a {
   height: 100dvh;
 }
 
-.hero {
+.content {
   margin: 0;
   padding: 0;
   display: flex;
@@ -41,7 +41,7 @@ a {
   align-items: center;
 }
 
-.hero-title {
+.page-title {
   margin: 0;
   padding: 0;
   font-family: 'Barrio', system-ui, sans-serif;
@@ -63,17 +63,17 @@ a {
 }
 
 @media (max-width: 1920px) {
-  .hero {
+  .content {
     background-image: url('/static/background-desktop.jpg');
   }
 }
 
 @media (max-width: 768px) or (max-height: 768px) {
-  .hero {
+  .content {
     background-image: url('/static/background-mobile.jpg');
   }
 
-  .hero-title {
+  .page-title {
     font-size: 3em;
   }
 
@@ -83,7 +83,7 @@ a {
 }
 
 @media (orientation: portrait) {
-  .hero {
+  .content {
     background-position: 80% center;
   }
 }

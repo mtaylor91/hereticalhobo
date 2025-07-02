@@ -42,24 +42,24 @@ init _ _ key =
 view : Model -> Browser.Document Msg
 view model =
   { title = "Man in a Van"
-  , body = viewContent
+  , body = viewContainer
   }
 
 
-viewContent : List (Html Msg)
-viewContent =
+viewContainer : List (Html Msg)
+viewContainer =
   [ div
     [ class "container" ]
-    [ viewHero
+    [ viewContent
     , viewFooter
     ]
   ]
 
 
-viewHero : Html Msg
-viewHero =
+viewContent : Html Msg
+viewContent =
   div
-    [ class "hero" ]
+    [ class "content" ]
     [ viewPageHeader ]
 
 
@@ -68,7 +68,7 @@ viewPageHeader =
   div
     [ class "page-header" ]
     [ h1
-      [ class "hero-title" ]
+      [ class "page-title" ]
       [ text "Man in a Van" ]
     ]
 
