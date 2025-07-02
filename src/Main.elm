@@ -11,10 +11,13 @@ import Url exposing (Url)
 type alias Flags = ()
 
 
-type alias Model = {}
+type alias Model =
+  { key : Key }
 
 
-type Msg = Noop
+type Msg
+  = Noop
+  | LinkClicked Browser.UrlRequest
 
 
 main : Program () Model Msg
@@ -30,8 +33,10 @@ main =
 
 
 init : Flags -> Url -> Key -> ( Model, Cmd Msg )
-init _ _ _ =
-  ( {}, Cmd.none )
+init _ _ key =
+  ( { key = key }
+  , Cmd.none
+  )
 
 
 view : Model -> Browser.Document Msg
@@ -119,6 +124,13 @@ update msg model =
   case msg of
     Noop ->
       ( model, Cmd.none )
+    LinkClicked urlRequest ->
+      case urlRequest of
+        Browser.Internal url ->
+          ( model, Browser.Navigation.pushUrl model.key (Url.toString url) )
+
+        Browser.External externalUrl ->
+          ( model, Browser.Navigation.load externalUrl )
 
 
 onUrlChange : Url -> Msg
@@ -127,8 +139,8 @@ onUrlChange _ =
 
 
 onUrlRequest : Browser.UrlRequest -> Msg
-onUrlRequest _ =
-  Noop
+onUrlRequest urlRequest =
+  LinkClicked urlRequest
 
 
 subscriptions : Model -> Sub Msg
