@@ -66,6 +66,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -79,6 +80,13 @@ a {
   margin: 10px 0;
   padding: 0;
   font-size: 1.5em;
+}
+
+.section .photo {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .footer {
