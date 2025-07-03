@@ -3,9 +3,12 @@ module Main exposing (main)
 import Browser
 import Browser.Navigation exposing (Key)
 import Html.Attributes exposing (class, href, style)
-import Html exposing (Html, a, div, h1, text)
+import Html exposing (Html, a, div, h1, li, p, text, ul)
 import Html.Events exposing (onClick)
 import Url exposing (Url)
+
+import BuildLog exposing (viewBuildLog)
+import Routes exposing (Route(..), toRoute)
 
 
 type alias Flags = ()
@@ -13,7 +16,7 @@ type alias Flags = ()
 
 type alias Model =
   { key : Key
-  , url : Url
+  , route : Route
   }
 
 
@@ -38,7 +41,7 @@ main =
 init : Flags -> Url -> Key -> ( Model, Cmd Msg )
 init _ url key =
   ( { key = key
-    , url = url
+    , route = toRoute url
     }
   , Cmd.none
   )
@@ -47,29 +50,71 @@ init _ url key =
 view : Model -> Browser.Document Msg
 view model =
   { title = "Man in a Van"
-  , body = viewContainer
+  , body = viewContainer model
   }
 
 
-viewContainer : List (Html Msg)
-viewContainer =
+viewContainer : Model -> List (Html Msg)
+viewContainer model =
   [ div
     [ class "container" ]
-    [ viewContent
+    [ viewContent model
     , viewFooter
     ]
   ]
 
 
-viewContent : Html Msg
-viewContent =
+viewContent : Model -> Html Msg
+viewContent model =
   div
     [ class "content" ]
-    ( [ viewPageHeader ] ++ viewMainContent )
+    ( [ viewPageHeader ] ++ viewMainContent model )
 
 
-viewMainContent : List (Html Msg)
-viewMainContent = []
+viewMainContent : Model -> List (Html Msg)
+viewMainContent model =
+  [ div
+    [ class "main-content" ]
+    (viewMainPage model)
+  ]
+
+
+viewMainPage : Model -> List (Html Msg)
+viewMainPage model =
+  case model.route of
+    Home ->
+      viewHomePage
+    BuildLog ->
+      BuildLog.viewBuildLog
+    NotFound ->
+      viewNotFoundPage
+
+
+viewHomePage : List (Html Msg)
+viewHomePage =
+  [ ul
+    [ class "home-links" ]
+    [ li
+      [ class "home-link" ]
+      [ a
+        [ href "/build-log" ]
+        [ text "Build Log" ]
+      ]
+    ]
+  ]
+
+
+viewNotFoundPage : List (Html Msg)
+viewNotFoundPage =
+  [ div
+    [ class "section" ]
+    [ h1 [ class "error-title" ] [ text "404 Not Found" ]
+    , p [ class "error-message" ] [ text "The page you are looking for does not exist." ]
+    , a
+      [ href "/" ]
+      [ text "Go back to Home" ]
+    ]
+  ]
 
 
 viewPageHeader : Html Msg
@@ -99,7 +144,7 @@ update msg model =
     Noop ->
       ( model, Cmd.none )
     Navigate url ->
-      ( { model | url = url }
+      ( { model | route = toRoute url }
       , Cmd.none
       )
     LinkClicked urlRequest ->
