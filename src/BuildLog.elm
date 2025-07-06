@@ -3,6 +3,8 @@ module BuildLog exposing (viewBuildLog)
 import Html exposing (Html, a, div, h1, h2, img, p, text)
 import Html.Attributes exposing (alt, class, href, src)
 
+import Helpers exposing (viewPhoto)
+
 
 viewBuildLog : List (Html msg)
 viewBuildLog =
@@ -23,12 +25,9 @@ viewBuildLog =
       tank.
       """
       ]
-    , img
-      [ class "photo"
-      , src "static/foam-and-joists.jpg"
-      , alt "Floor insulation with XPS foam and joists"
-      ]
-      [ text "Floor insulation with XPS foam and joists" ]
+    , viewPhoto
+      "static/foam-and-joists.jpg"
+      "Floor insulation and joists"
     , p []
       [ text """
       The plywood layer will be glued to the XPS foam using a high-strength construction
@@ -39,12 +38,9 @@ viewBuildLog =
       comfortable and durable.
       """
       ]
-    , img
-      [ class "photo"
-      , src "static/plywood-subfloor.jpg"
-      , alt "Plywood layer on top of the insulation"
-      ]
-      [ text "Plywood layer on top of the insulation" ]
+    , viewPhoto
+      "static/plywood-subfloor.jpg"
+      "Plywood subfloor sitting on top of the insulation"
     , p []
       [ text """
       To provide additional comfort during Canada's cold winter months, the insulating
@@ -56,12 +52,12 @@ viewBuildLog =
       even in the harshest winter conditions.
       """
       ]
-    , img
-      [ class "photo"
-      , src "static/pex-inlay-proof-of-concept.jpg"
-      , alt "Proof of concept for Pex inlay"
-      ]
-      [ text "Proof of concept for Pex inlay" ]
+    , viewPhoto
+      "static/pex-inlay-proof-of-concept.jpg"
+      "Proof of concept for Pex inlay"
+    , viewPhoto
+      "static/pex-inlay-work-in-progress.jpg"
+      "Pex inlay work in progress"
     ]
   , div
     [ class "section" ]

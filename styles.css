@@ -83,6 +83,10 @@ a {
 }
 
 .section .photo {
+  margin: 1em 0;
+}
+
+.section .photo img {
   width: 100%;
   max-width: 600px;
   height: auto;
