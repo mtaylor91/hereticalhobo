@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser
 import Browser.Navigation exposing (Key)
 import Html.Attributes exposing (class, href, style)
-import Html exposing (Html, a, div, h1, li, p, text, ul)
+import Html exposing (Html, a, br, div, h1, li, p, text, ul)
 import Html.Events exposing (onClick)
 import Url exposing (Url)
 
@@ -101,6 +101,12 @@ viewHomePage =
         [ text "Build Log" ]
       ]
     ]
+  , div
+    [ class "signature" ]
+    [ text "Always be Curious, Creative, and Kind;"
+    , br [] []
+    , text "Never Cowardly or Cruel"
+    ]
   ]
 
 
@@ -131,10 +137,14 @@ viewFooter : Html Msg
 viewFooter =
   div
     [ class "footer" ]
-    [ text "Made with ❤️ in Elm"
-    , a
-      [ href "https://github.com/mtaylor91/maninavan-ca-site" ]
-      [ text "View Source on GitHub" ]
+    [ div
+      [ class "source" ]
+      [ text "Made with ❤️ in Elm"
+      , br [] []
+      , a
+        [ href "https://github.com/mtaylor91/maninavan-ca-site" ]
+        [ text "View Source on GitHub" ]
+      ]
     ]
 
 

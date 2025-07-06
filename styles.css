@@ -31,6 +31,8 @@ a {
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 0px;
+  overflow-y: auto;
 }
 
 .page-header {
@@ -52,22 +54,31 @@ a {
 
 .main-content {
   width: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  flex-grow: 1;
+}
+
+.main-content-title {
+  margin-top: 1em 0;
+  padding: 0;
+  font-family: 'Special Elite', system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
 }
 
 .section {
-  margin: 20px;
-  padding: 20px;
+  margin-bottom: 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
 }
 
 .section h1 {
@@ -94,18 +105,30 @@ a {
 }
 
 .footer {
-  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #333;
+  background-color: #000;
   text-align: center;
   font-size: 0.8em;
 }
 
+.footer .source {
+  margin: 0.5em 0;
+}
+
+.signature {
+  margin: 1em 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .home-links {
+  flex-grow: 1;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -117,7 +140,7 @@ a {
 
 .home-link a {
   text-decoration: none;
-  font-family: 'Barrio', system-ui, sans-serif;
+  font-family: 'Special Elite', system-ui;
   font-size: 1.2em;
 }
 .home-link a:hover {
@@ -142,10 +165,6 @@ a {
 
   .page-title {
     font-size: 3em;
-  }
-
-  .footer {
-    padding: 10px;
   }
 }
 

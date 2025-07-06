@@ -8,9 +8,7 @@ import Helpers exposing (viewPhoto)
 
 viewBuildLog : List (Html msg)
 viewBuildLog =
-  [ div
-    [ class "section" ]
-    [ h1 [] [ text "Build Log" ] ]
+  [ h1 [ class "main-content-title" ] [ text "Build Log" ]
   , div
     [ class "section" ]
     [ h2 [] [ text "Floor" ]
