@@ -3,6 +3,7 @@
 .PHONY: all clean dev-server publish
 
 
+ELM_FILES := $(shell find src -name '*.elm')
 STATIC_FILES := $(notdir $(wildcard static/*))
 PUBLIC_STATIC_FILES := $(addprefix public/static/, $(STATIC_FILES))
 PUBLIC := public/elm.js public/index.html public/styles.css $(PUBLIC_STATIC_FILES)
@@ -28,7 +29,7 @@ public/%: %
 	cp $< public/$<
 
 
-public/elm.js: src/Main.elm
+public/elm.js: $(ELM_FILES)
 	elm make src/Main.elm --optimize --output=public/elm.js
 
 
