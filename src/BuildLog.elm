@@ -1,19 +1,21 @@
 module BuildLog exposing (viewBuildLog)
 
-import Html exposing (Html, a, div, h1, h2, img, p, text)
-import Html.Attributes exposing (alt, class, href, src)
+import Html exposing (Html)
 
-import Helpers exposing (viewPhoto)
+import Helpers exposing
+  ( viewHomeLink
+  , viewMainContentTitle
+  , viewParagraph
+  , viewPhoto
+  , viewSection
+  )
 
 
 viewBuildLog : List (Html msg)
 viewBuildLog =
-  [ h1 [ class "main-content-title" ] [ text "Build Log" ]
-  , div
-    [ class "section" ]
-    [ h2 [] [ text "Floor" ]
-    , p []
-      [ text """
+  [ viewMainContentTitle "Build Log"
+  , viewSection "Floor"
+    [ viewParagraph """
       The van floor will consist of 1" XPS solid foam insulation panels intersected by
       wooden joists and topped with 1/4" plywood.  The insulation has been cut to fit
       snugly between the joists and the van walls and wheel wells, ensuring a tight
@@ -22,12 +24,10 @@ viewBuildLog =
       to provide added structural support and stability under the battery bank and water
       tank.
       """
-      ]
     , viewPhoto
       "static/foam-and-joists.jpg"
       "Floor insulation and joists"
-    , p []
-      [ text """
+    , viewParagraph """
       The plywood layer will be glued to the XPS foam using a high-strength construction
       adhesive, ensuring a solid bond that will withstand the rigors of van life. The
       plywood has been cut to fit the van's floor dimensions, with all edges sealed to
@@ -35,12 +35,10 @@ viewBuildLog =
       insulation, sound dampening, and structural integrity, making the van floor both
       comfortable and durable.
       """
-      ]
     , viewPhoto
       "static/plywood-subfloor.jpg"
       "Plywood subfloor sitting on top of the insulation"
-    , p []
-      [ text """
+    , viewParagraph """
       To provide additional comfort during Canada's cold winter months, the insulating
       layer will be inlaid with a radiant heating system. This system will consist of Pex
       tubing embedded in the XPS foam layer with Aluminium heat transfer plates spaced
@@ -49,7 +47,6 @@ viewBuildLog =
       throughout the floor. This setup should ensure that the van remains warm and cozy,
       even in the harshest winter conditions.
       """
-      ]
     , viewPhoto
       "static/pex-inlay-proof-of-concept.jpg"
       "Proof of concept for Pex inlay"
@@ -57,7 +54,5 @@ viewBuildLog =
       "static/pex-inlay-work-in-progress.jpg"
       "Pex inlay work in progress"
     ]
-  , div
-    [ class "section" ]
-    [ a [ href "/" ] [ text "Back to Home" ] ]
+  , viewHomeLink
   ]
