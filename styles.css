@@ -121,21 +121,25 @@ a {
 }
 
 .signature {
-  margin: 1em 0;
+  width: calc(100% - 2em);
+  padding: 0.25em 1em;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
   font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .home-links {
+  margin: 0;
+  padding: 0;
   flex-grow: 1;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 .home-link {
   margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .home-link a {
