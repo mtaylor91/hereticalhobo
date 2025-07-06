@@ -20,7 +20,7 @@ viewBuildLog =
       wooden joists and topped with 1/4" plywood.  The insulation has been cut to fit
       snugly between the joists and the van walls and wheel wells, ensuring a tight
       seal against air leaks. The joists are cut into narrow strips 1" tall and 0.8"
-      wide. They're placed roughly every 8' apart in the rear and 4' apart in the front
+      wide. They're placed roughly every 4' apart in the rear and 2' apart in the front
       to provide added structural support and stability under the battery bank and water
       tank.
       """
