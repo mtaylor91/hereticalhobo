@@ -16,7 +16,7 @@ clean:
 	rm -rf public
 
 
-dev-server:
+dev-server: ${PUBLIC}
 	caddy run --config Caddyfile.dev
 
 
