@@ -1,20 +1,22 @@
-module Routes exposing (Route(..), routeToString, toRoute)
+module Route exposing (Route(..), routeToString, toRoute)
 
 import Url exposing (Url)
-import Url.Parser as Parser exposing (Parser, oneOf, map, s, top)
+import Url.Parser as Parser exposing (Parser, oneOf, map, s, top, (</>))
+
+import Van.Route
 
 
 type Route
   = Home
-  | BuildLog
   | NotFound
+  | VanRoute Van.Route.Route
 
 
 route :  Parser (Route -> a) a
 route =
   oneOf
     [ map Home top
-    , map BuildLog (s "build-log")
+    , map VanRoute (s "van" </> Van.Route.route)
     ]
 
 
@@ -23,10 +25,10 @@ routeToString str =
   case str of
     Home ->
       "/"
-    BuildLog ->
-      "/build-log"
     NotFound ->
       "/404"
+    VanRoute vanRoute ->
+      "/van" ++ Van.Route.routeToString vanRoute
 
 
 toRoute : Url -> Route

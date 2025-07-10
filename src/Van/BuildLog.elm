@@ -1,4 +1,4 @@
-module BuildLog exposing (viewBuildLog)
+module Van.BuildLog exposing (viewBuildLog)
 
 import Html exposing (Html)
 
@@ -25,7 +25,7 @@ viewBuildLog =
       tank.
       """
     , viewPhoto
-      "static/foam-and-joists.jpg"
+      "/static/foam-and-joists.jpg"
       "Floor insulation and joists"
     , viewParagraph """
       The plywood layer will be glued to the XPS foam using a high-strength construction
@@ -36,7 +36,7 @@ viewBuildLog =
       comfortable and durable.
       """
     , viewPhoto
-      "static/plywood-subfloor.jpg"
+      "/static/plywood-subfloor.jpg"
       "Plywood subfloor sitting on top of the insulation"
     , viewParagraph """
       To provide additional comfort during Canada's cold winter months, the insulating
@@ -48,10 +48,10 @@ viewBuildLog =
       even in the harshest winter conditions.
       """
     , viewPhoto
-      "static/pex-inlay-proof-of-concept.jpg"
+      "/static/pex-inlay-proof-of-concept.jpg"
       "Proof of concept for Pex inlay"
     , viewPhoto
-      "static/pex-inlay-work-in-progress.jpg"
+      "/static/pex-inlay-work-in-progress.jpg"
       "Pex inlay work in progress"
     ]
   , viewHomeLink
