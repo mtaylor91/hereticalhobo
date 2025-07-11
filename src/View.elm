@@ -108,7 +108,7 @@ viewFooter =
       [ text "Made with ❤️ in Elm"
       , br [] []
       , a
-        [ href "https://github.com/mtaylor91/maninavan-ca-site" ]
+        [ href "https://github.com/mtaylor91/hereticalhobo" ]
         [ text "View Source on GitHub" ]
       ]
     ]
