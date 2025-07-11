@@ -18,3 +18,8 @@ variable "redirect_domains" {
   description = "List of domains to redirect to the primary domain"
   type        = list(string)
 }
+
+variable "production_branch" {
+  description = "Branch to deploy to production"
+  type        = string
+}
