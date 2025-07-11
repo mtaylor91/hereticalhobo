@@ -1,3 +1,4 @@
+CLOUDFLARE_PAGES_PROJECT ?= hereticalhobo
 
 
 .PHONY: all clean dev-server publish
@@ -21,7 +22,7 @@ dev-server: ${PUBLIC}
 
 
 publish: ${PUBLIC}
-	./bin/publish.sh
+	./bin/publish.sh $(CLOUDFLARE_PAGES_PROJECT)
 
 
 public/%: %
