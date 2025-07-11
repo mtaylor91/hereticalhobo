@@ -1,5 +1,6 @@
 
 locals {
+  name = "hereticalhobo"
   domains = {
     primary = "hereticalhobo.ca"
     redirects = [
