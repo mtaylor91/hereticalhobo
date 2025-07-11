@@ -18,15 +18,6 @@ terraform {
     secret_key = "${get_env("CLOUDFLARE_R2_SECRET_ACCESS_KEY")}"
     endpoints = { s3 = "https://${get_env("CLOUDFLARE_ACCOUNT_ID")}.r2.cloudflarestorage.com" }
   }
-
-  required_providers {
-    cloudflare = {
-      source = "cloudflare/cloudflare"
-      version = "~> 5"
-    }
-  }
 }
-
-provider "cloudflare" {}
 EOF
 }
