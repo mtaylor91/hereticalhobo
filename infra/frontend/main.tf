@@ -4,6 +4,10 @@ resource "cloudflare_pages_project" "this" {
   name       = var.project_name
 
   production_branch = "main"
+
+  lifecycle {
+    ignore_changes = all
+  }
 }
 
 resource "cloudflare_pages_domain" "primary" {
