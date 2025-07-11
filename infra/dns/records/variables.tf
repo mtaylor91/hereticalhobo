@@ -14,7 +14,12 @@ variable "primary_domain" {
   type        = string
 }
 
-variable "primary_zone_id" {
-  description = "Zone ID for the primary domain."
-  type        = string
+variable "redirect_domains" {
+  description = "List of domains to redirect to the primary domain."
+  type        = list(string)
+}
+
+variable "zone_ids" {
+  description = "Map of domain names to their corresponding Cloudflare zone IDs."
+  type        = map(string)
 }

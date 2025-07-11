@@ -24,5 +24,6 @@ inputs = {
   cloudflare_account_id = get_env("CLOUDFLARE_ACCOUNT_ID")
   primary_cname_target  = dependency.frontend.outputs.subdomain
   primary_domain        = local.primary_domain
-  primary_zone_id       = dependency.zones.outputs.zone_ids[local.primary_domain]
+  redirect_domains      = include.env.locals.domains.redirects
+  zone_ids              = dependency.zones.outputs.zone_ids
 }
