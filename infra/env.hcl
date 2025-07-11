@@ -4,8 +4,10 @@ locals {
     primary = "hereticalhobo.ca"
     redirects = [
       "hereticalhobo.com",
-      "thehereticalhobo.com",
+      "hereticalhobo.net",
       "thehereticalhobo.ca",
+      "thehereticalhobo.com",
+      "thehereticalhobo.net",
     ]
   }
 }
