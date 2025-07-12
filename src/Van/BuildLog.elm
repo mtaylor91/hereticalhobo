@@ -13,7 +13,7 @@ import Helpers exposing
 
 viewBuildLog : List (Html msg)
 viewBuildLog =
-  [ viewMainContentTitle "Build Log"
+  [ viewMainContentTitle "Van Build Log"
   , viewSection "Floor"
     [ viewParagraph """
       The van floor will consist of 1" XPS solid foam insulation panels intersected by
