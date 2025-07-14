@@ -92,6 +92,10 @@ a {
   font-size: 1.5em;
 }
 
+.section p {
+  text-align: justify;
+}
+
 .section .photo {
   margin: 1em 0;
 }
