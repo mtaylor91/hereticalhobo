@@ -8,6 +8,7 @@ import Van.Route
 
 type Route
   = Home
+  | About
   | NotFound
   | VanRoute Van.Route.Route
 
@@ -16,6 +17,7 @@ route :  Parser (Route -> a) a
 route =
   oneOf
     [ map Home top
+    , map About (s "about" </> top)
     , map VanRoute (s "van" </> Van.Route.route)
     ]
 
@@ -25,6 +27,8 @@ routeToString str =
   case str of
     Home ->
       "/"
+    About ->
+      "/about"
     NotFound ->
       "/404"
     VanRoute vanRoute ->

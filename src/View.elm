@@ -5,6 +5,7 @@ import Html.Attributes exposing (class, href, style)
 import Html exposing (Html, a, br, div, h1, li, p, text, ul)
 import Html.Events exposing (onClick)
 
+import About exposing (viewAbout)
 import Model exposing (Model, Msg(..))
 import Route exposing (Route(..), routeToString)
 import Van.BuildLog exposing (viewBuildLog)
@@ -48,6 +49,8 @@ viewMainPage model =
   case model.route of
     Home ->
       viewHomePage
+    About ->
+      viewAbout
     NotFound ->
       viewNotFoundPage
     VanRoute route ->
@@ -61,6 +64,12 @@ viewHomePage =
   [ ul
     [ class "home-links" ]
     [ li
+      [ class "home-link" ]
+      [ a
+        [ href (routeToString About) ]
+        [ text "Where It All Went Wrong" ]
+      ]
+    , li
       [ class "home-link" ]
       [ a
         [ href (routeToString (VanRoute BuildLog)) ]
