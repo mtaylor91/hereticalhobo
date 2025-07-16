@@ -42,19 +42,19 @@ is or how it works.
 Why should you believe me? That's easy: you shouldn't. But then why should you believe
 anyone? About anything? There seem to be two different kinds of people. Actually there
 seem to be around 8 billion different kinds of people, but I haven't met them all and
-even if I had describing them all would make this unreadable. Reality seems to be
-somewhat complicated and at least as far as I can tell none of us have encountered all of
-it. In an attempt to make navigating it somewhat manageable evolution seems to have
+even if I had, describing them all would make this unreadable. Reality seems to be
+somewhat complicated and at least as far as I can tell, none of us have encountered all
+of it. In an attempt to make navigating it somewhat manageable, evolution seems to have
 developed a rather nifty trick. It's called "modeling". You probably "understand" what a
-model is but since I've (hopefully) already established that nobody actually understands
-anything allow me to try to explain it anyways. A model is a thing which is somewhat like
+model is, but since I've (hopefully) already established that nobody actually understands
+anything, allow me to try to explain it anyway. A model is a thing which is somewhat like
 another thing while not actually being that other thing. Mathematicians would call it an
 "abstraction". Linguists might call it an "analogy". These are all the same thing. Or at
 least... these are all models attempting to represent the same thing. Which is ultimately
 the point: models represent things. But I digress. Back to my original point: there seem
 to be two different kinds of people. Or rather: it is in some sense useful to model
-people as belonging to one of two potentially interesting categories:
-"nerds" and "normal people".
+people as belonging to one of two potentially interesting categories: "nerds" and "normal
+people".
 
 What's the difference between "nerds" and "normal people" you ask? Well, there are
 probably a myriad of different answers one could give there. Nerds are often seen as
@@ -68,18 +68,18 @@ while never completely getting over the childlike obsession with constantly aski
 But what is the alternative? The alternative (at least as far as I can tell) is to adopt
 and subscribe to some system of epistemological authority. It has long been debated to
 what extent hierarchy is a "natural" phenomenon or a social construct. While I have no
-real interest in delving into that particular debate at this precise moment it is perhaps
-worth briefly asking "what's the difference?" before immediately moving on without
-answering that question in any particularly interesting or compelling fashion. What is a
-system of epistemological authority, you ask? Well "epistemology" is the study of how we
-"know" things; but since I don't really believe anyone knows anything we can perhaps just
-call it the study of why people believe things. With all that rambling out of the way I
-can now get to what may or may not be my penultimate point: "nerds" believe things
-because they seem to be "true" while "normal people" believe things because people who
-are "smarter" than them do (or if you don't base your system of epistemological authority
-on "intelligence", then perhaps you prefer more "faithful", "enlightened",
+real interest in delving into that particular debate at this precise moment, it is
+perhaps worth briefly asking "what's the difference?" before immediately moving on
+without answering that question in any particularly interesting or compelling fashion.
+What is a system of epistemological authority, you ask? Well, "epistemology" is the study
+of how we "know" things; but since I don't really believe anyone knows anything, we can
+perhaps just call it the study of why people believe things. With all that rambling out
+of the way, I can now get to what may or may not be my penultimate point: "nerds" believe
+things because they seem to be "true" while "normal people" believe things because people
+who are "smarter" than them do (or if you don't base your system of epistemological
+authority on "intelligence", then perhaps you prefer more "faithful", "enlightened",
 "authoritative", "knowledgeable", "experienced", or whatever particular adjective you'd
-like to describe someone who's aura or social standing or whatever does it for you
+like to describe someone whose aura or social standing or whatever does it for you
 conveys the general sense that the things they believe should probably also be believed
 by you).
 
@@ -87,58 +87,58 @@ by you).
 
 The ancient Mesopotamian city-state of Babylon once held an annual festival called
 'Akitu'. This was a spring festival of rebirth. The details are a bit lost to history but
-as far as I understand it it was essentially a way of re-establishing the legitimacy of
-the authority of both the religious caste and the political caste. Every year the priests
-and political leaders would throw a big celebration to remind everyone of the extent to
-which they depended on the Gods for their well-being. During the festival the people
-would be given time off work and ceremonies would be held during which the priests would
-offer prayers to Marduk, the chief God of the pantheon worshipped by Babylonians. These
-prayers would reinforce how little anyone knew about anything and the extent to which
-everyone depended on the benevolence of Marduk to ensure everything would work out. Since
-the priests were the representatives of Marduk and the other Gods, this more or less
-ensured their legitimacy. During the festival the King would make a big deal of showing
-off how much he feared and respected Marduk (and by extension the religious leaders who
-represented him) and the religious leaders would then "sanctify" the King conveying to
-the people that the King respected Marduk (and by extension them, his representatives)
-and the people would be left with the general impression that if they wanted to be on
-good terms with Marduk and the other Gods then being on good terms with the religious and
-political authorities would likely be a pretty good place to start.
+as far as I understand it, it was essentially a way of re-establishing the legitimacy of
+the authority of both the religious caste and the political caste. Every year the
+priests and political leaders would throw a big celebration to remind everyone of the
+extent to which they depended on the Gods for their well-being. During the festival, the
+people would be given time off work and ceremonies would be held during which the priests
+would offer prayers to Marduk, the chief God of the pantheon worshipped by Babylonians.
+These prayers would reinforce how little anyone knew about anything and the extent to
+which everyone depended on the benevolence of Marduk to ensure everything would work out.
+Since the priests were the representatives of Marduk and the other Gods, this more or
+less ensured their legitimacy. During the festival, the King would make a big deal of
+showing off how much he feared and respected Marduk (and by extension the religious
+leaders who represented him) and the religious leaders would then "sanctify" the King,
+conveying to the people that the King respected Marduk (and by extension them, his
+representatives) and the people would be left with the general impression that if they
+wanted to be on good terms with Marduk and the other Gods, then being on good terms with
+the religious and political authorities would likely be a pretty good place to start.
 
-Fast-forwarding and shifting geographical contexts we arrive at the what is often
-considered the foundation of Western civilization: the Greeks. Many things haven't
-changed much: there are Gods, there is a pantheon, Kings rule by some form of divine
-right and the religious caste still (arguably) holds most of the power through their
-ability to shape the overarching narrative. In some ways things may be getting a bit more
-interesting, though. The standard narrative surrounding the Greeks is they laid a lot of
-the groundwork for the Roman empire which preceded the Monarchies of the middle ages
-which preceded the Liberal Democracies of the present day. What I find most interesting
-about the Greeks is that some of the most influential ancient Greek dudes who we learn
-about and study did not believe in the prevailing orthodoxy of their day. Socrates (who
-is sometimes credited as the founder of Western philosophy) was forced to drink hemlock
-poison by the political elite for being an atheist and "corrupting the youth" of
-Athens. It is perhaps not entirely false to state that in ancient Greece we find what
-may be described as the beginning of a long a drawn-out "revenge of the nerds".
-Though this would not come to full fruition until much later during the
-enlightenment... and perhaps not even then.
+Fast-forwarding and shifting geographical contexts, we arrive at what is often considered
+the foundation of Western civilization: the Greeks. Many things haven't changed much:
+there are Gods, there is a pantheon, Kings rule by some form of divine right and the
+religious caste still (arguably) holds most of the power through their ability to shape
+the overarching narrative. In some ways things may be getting a bit more interesting,
+though. The standard narrative surrounding the Greeks is they laid a lot of the
+groundwork for the Roman Empire which preceded the Monarchies of the Middle Ages which
+preceded the Liberal Democracies of the present day. What I find most interesting about
+the Greeks is that some of the most influential ancient Greek dudes who we learn about
+and study did not believe in the prevailing orthodoxy of their day. Socrates (who is
+sometimes credited as the founder of Western philosophy) was forced to drink hemlock
+poison by the political elite for being an atheist and "corrupting the youth" of Athens.
+It is perhaps not entirely false to state that in ancient Greece we find what may be
+described as the beginning of a long and drawn-out "revenge of the nerds". Though this
+would not come to full fruition until much later during the Enlightenment... and perhaps
+not even then.
 
-The early phases of the Roman empire mirror the Greeks (and the Babylonians, the
+The early phases of the Roman Empire mirror the Greeks (and the Babylonians, the
 Persians, the Assyrians, etc.) to the extent that it is not particularly interesting to
 dwell on them too much. Again: Gods, Kings, divine rights, big/sharp sticks, the usual
 deal. Where it gets a bit more interesting is around year 0. As the story goes: a Jewish
 carpenter married a virgin who gave birth to a guy who said it would be great if we would
 be a bit nicer to each other and maybe not invest quite so much time and effort into
 bashing and poking each other with big/sharp sticks. This idea proved to be quite
-popular. So popular, in fact, that within a couple hundred years this guys' followers
-represented a substantial political challenge to the authority of the Roman empire. Not
-to be outdone: the Roman empire quickly reoriented themselves around the theology of
+popular. So popular, in fact, that within a couple hundred years this guy's followers
+represented a substantial political challenge to the authority of the Roman Empire. Not
+to be outdone: the Roman Empire quickly reoriented themselves around the theology of
 being nice to people and not poking people with sharp sticks. Not unless they disagreed
-with the exact specificities of the doctrine surrounding how and why people should not
-be poked with sharp sticks. In that case... well it was only natural that they must be
-poked with sharp sticks.
+with the exact specificities of the doctrine surrounding how and why people should not be
+poked with sharp sticks. In that case... well it was only natural that they must be poked
+with sharp sticks.
 
-Eventually the Roman empire got a bit too big to be politically managed by a single
-central authority using the communications and transporation technologies of the day. The
-theological centre of power remained vested in the Roman Catholic Church while the
+Eventually the Roman Empire got a bit too big to be politically managed by a single
+central authority using the communications and transportation technologies of the day.
+The theological centre of power remained vested in the Roman Catholic Church while the
 political centres of power fractured into a myriad of more local monarchies. This lasted
 a while. Eventually a guy named Martin Luther got somewhat annoyed at how mean people
 were being to each other in the name of being nice to each other and an English king got
@@ -150,7 +150,7 @@ damper on it.
 
 It's hard to say exactly when the Enlightenment started or what or who started it. After
 all, nerds have sort of always been around. Sometime around the 17th century they started
-to feel like the political atmosphere was such they they might be able to get away with
+to feel like the political atmosphere was such that they might be able to get away with
 being a bit more vocal about their ideas without being poked with sharp sticks or forced
 to drink hemlock poison. Suffice it to say that it was around this time that the general
 notion that the universe might progress according to certain identifiable patterns and
@@ -187,7 +187,7 @@ authoritarianism (because I'll poke you with a sharp stick if you don't like it)
 There is one teensy little problem with basing our social order on the ability of
 rational and intelligent humans to model and predict reality. Reality includes humans.
 This leads to a clever little trick: once you start making accurate predictions and
-getting rewarded for them you can then use those rewards to incentivize other humans to
+getting rewarded for them, you can then use those rewards to incentivize other humans to
 help you. This, of course, means that going forward your predictions are far more likely
 to be accurate. Not so much because you're necessarily "smarter" or "more rational"; but
 because you have a lot of power and the other humans that inhabit reality have some
@@ -201,7 +201,7 @@ engines and all manner of fancy new ways of making the lives of people who you l
 who like you rather pleasant while bringing about a swift and untimely end to the lives
 of people who you don't like and who presumably don't like you. Things are never uniform,
 though. European powers were entrenched in large-scale colonial wars in an attempt to
-divy up the world. This meant that things were going well if you were aligned with a
+divvy up the world. This meant that things were going well if you were aligned with a
 powerful European colonial power who you liked and who thought well enough of you. If you
 weren't: things were probably not all that great.
 
@@ -209,7 +209,7 @@ The European colonial powers were of course not monolithic. Each wielded its rat
 industrial power, and colonial might to further its own ends. Winners gained the benefits
 of an enlarged pool of resources. Losers dwindled further and further into historical
 insignificance. Since everyone was ultimately out for themselves and the world was small
-enough to be colonised but large enough to preclude any sense of pervasive unity
+enough to be colonised but large enough to preclude any sense of pervasive unity,
 eventually the situation came to a head. The Great War officially broke out in 1914. Four
 years later, with 30-40 million people dead, it concluded. The Allies "won", the Central
 Powers "lost". But as the events of the next few decades would make clear: nothing was
@@ -219,16 +219,16 @@ Following the Great War the winners basked in their victory while the losers wal
 their defeat. Explanations were as plentiful as they were incomplete. This era saw the
 birth of both Fascism and Communism. While these ideologies are certainly interesting and
 worthy of further exploration, I won't delve into them here. Suffice it to say that if
-  humanity learned any lessons whatsoever from the Great War, it's that we simply hadn't
-  warred hard enough. Naturally, this led to a sequel. The sequel brought about the
-  deaths of 75-80 million more people and concluded with the invention of nuclear
-  annihiliation. Arguably, we still hadn't really learned anything.
+humanity learned any lessons whatsoever from the Great War, it's that we simply hadn't
+warred hard enough. Naturally, this led to a sequel. The sequel brought about the deaths
+of 75-80 million more people and concluded with the invention of nuclear annihilation.
+Arguably, we still hadn't really learned anything.
 
 Though perhaps I've been a bit cynical. The period that followed World War II - "The
-Great Moderation" - has been an era of unprecendented development and growth. Immediately
-following World War II the victorious Allies set about helping each other and even the
+Great Moderation" - has been an era of unprecedented development and growth. Immediately
+following World War II, the victorious Allies set about helping each other and even the
 nations of the former Axis rebuild. The United States and its allied nations invested
-heavily in the reconstruction of territories that had hitherto waged war against them
+heavily in the reconstruction of territories that had hitherto waged war against them,
 leading to great prosperity not just for the victors but for much of the developed world.
 Another rather nifty invention was that of the welfare state. This was a system of social
 security that provided for the basic needs of all citizens, regardless of their present
@@ -242,23 +242,23 @@ finally learned that cooperative construction was in most cases preferable to co
 destruction for most of the people involved.
 
 Though it must be mentioned that the time since World War II has not been entirely devoid
-of conflict. Almost immediately following the conclusion of World War II relationships
+of conflict. Almost immediately following the conclusion of World War II, relationships
 with the Soviet Union soured rather considerably. Despite the wild successes of science
 and rationalism when compared with the old ways of knowing things (faith and religion),
 science had never quite gotten a firm grasp on how exactly time works. While it was
 generally understood that the past happened a little bit ago, the present was happening
 now, and the future would be occurring in a short while; there remained a bit of a rather
 puzzling conundrum. While this somehow always seemed to be the case, the details of
-  exactly what had happened, what was currently happening, and what might yet happen in
-  the future had a persistent and rather annoying tendency to shift quite considerably.
+exactly what had happened, what was currently happening, and what might yet happen in the
+future had a persistent and rather annoying tendency to shift quite considerably.
 
 For the most part, things that happened in the past stayed there. There are of course a
 few important details: there is rather a lot of the past, and it took place in quite a
 few different places; so while we can be relatively sure that things happened, there
 remains pervasive disagreement about what exactly happened when and where and which parts
 of it are most worth discussing. The present is the present and while we are perpetually
-living in it never seems to last long enough to be particularly worthy of discussion. The
-future, on the other hand, is both perpetually out of reach and the topic of the most
+living in it, it never seems to last long enough to be particularly worthy of discussion.
+The future, on the other hand, is both perpetually out of reach and the topic of the most
 vehement disagreements.
 
 With God largely out of the picture (as Nietzsche had pointed out), this left nature with
@@ -267,9 +267,9 @@ great deal of ink on the topic of how exactly nature went about deciding how the
 would unfold. To the astute reader the conclusion they came to is by this point probably
 somewhat obvious: those with the biggest and sharpest sticks get to decide. There was
 only one small issue with Darwin's theory of evolution: it wasn't very good at making
-predictions. You see science and rationalism had developed a bit of a preference for one
+predictions. You see, science and rationalism had developed a bit of a preference for one
 particular tool with which to build their models to make predictions about things:
-Mathematics. Thankfully, a little less than a century or so later Darwin's ideas on the
+Mathematics. Thankfully, a little less than a century or so later, Darwin's ideas on the
 inevitability of winners winning were transcribed from biology to economics and rewritten
 in much more Mathematical terms by the likes of Friedrich Hayek and Milton Friedman
 (among others).
@@ -287,7 +287,7 @@ gradually dismantling any and all paths to anything that might resemble an alter
 
 For a long time this worked rather well. The peace and prosperity of the Great Moderation
 combined with the post-war demographic trends had produced an unusually large population
-of unusually wealthy baby boomers. Everyone was educated. Everyone had a well paying job.
+of unusually wealthy baby boomers. Everyone was educated. Everyone had a well-paying job.
 Everyone could afford a fairly nice house and a couple of vehicles. Well... not quite
 everyone. Everyone who mattered, though. Certainly all of the "winners"... and there were
 an unusually large number of winners. It was perhaps not unreasonable for many of the
@@ -314,21 +314,21 @@ that someone has and is able to use and spend to satisfy their needs and/or desi
 is not elsewhere represented as an obligation for someone to pay someone else back for
 something. Usually with interest.
 
-Back to population and wealth. Assuming there is an ever increasing population with an
-ever increasing quantity of wealth then there's a possibility that more people can just
+Back to population and wealth. Assuming there is an ever-increasing population with an
+ever-increasing quantity of wealth then there's a possibility that more people can just
 acquire more wealth (or equivalently: debt) to pay off the old loans. On and on the cycle
 goes, each generation going further into debt (or getting richer, depending on which side
 of the ledger you prefer to focus on) to pay off the loans of the last generation. There
 are two small problems. First: the population in most countries has already (or will
-soon) plateau. An ever increasing population doesn't seem to be in the cards. Second:
+soon) plateau. An ever-increasing population doesn't seem to be in the cards. Second:
 while there is some debate as to the extent to which wealth accumulation corresponds with
 energy usage, it is widely (if not universally) accepted that to do economically
 worthwhile activities in the vast majority of cases requires using some form of energy.
-The cheapest and most abundant sources of energy remain coal, oil, and gas. An ever
-increasing amount of wealth generation is very, very likely to correspond to an every
-increasing quantity of energy consumption. The planet is already starting to take issue
-with our current levels of energy consumption - let alone the vastly increased quantities
-of energy consumption that continuing this trend would demand in the future.
+The cheapest and most abundant sources of energy remain coal, oil, and gas. An
+ever-increasing amount of wealth generation is very, very likely to correspond to an
+ever-increasing quantity of energy consumption. The planet is already starting to take
+issue with our current levels of energy consumption - let alone the vastly increased
+quantities of energy consumption that continuing this trend would demand in the future.
 
 So what happens next? I sure as hell don't know. The orthodox view is a rather dogmatic
 certainty in fundamental and quantifiable uncertainty. What the hell does that mean? Glad
@@ -338,17 +338,17 @@ can't predict and the extent to which they can't predict it. Translation? They t
 know everything. Or at least everything worth knowing. They certainly acknowledge there
 are things they can't predict (or at least not with absolute certainty and precision);
 but in general they believe with all the faith of the ancient priests of Babylon that
-Marduk (or in this case Mathematics) is on their side and whatever they don't know no one
-else knows either. Pretty typical "pride before the fall" hubris (if you ask me). The big
-issue I see is there are a fair number of them and as usual they aren't particularly well
-aligned with one another. In all likelihood they will get along less and less well as
-time goes on. That's what happens when more and more people become "losers" and the fewer
-and fewer remaining "winners" are forced to compete with each other rather than continue
-siphoning off the dwindling resources of an increasingly indebted and immiserated
-population of "losers". If I were to hazard a guess we seem to be heading in the usual
-direction things go when the winners have "won" and the losers have "lost": blame the
-immigrants and foreigners and start building up your military as everyone prepares to
-reset the game board.
+Marduk (or in this case Mathematics) is on their side and whatever they don't know, no
+one else knows either. Pretty typical "pride before the fall" hubris (if you ask me). The
+big issue I see is there are a fair number of them and as usual they aren't particularly
+well aligned with one another. In all likelihood they will get along less and less well
+as time goes on. That's what happens when more and more people become "losers" and the
+fewer and fewer remaining "winners" are forced to compete with each other rather than
+continue siphoning off the dwindling resources of an increasingly indebted and
+immiserated population of "losers". If I were to hazard a guess, we seem to be heading in
+the usual direction things go when the winners have "won" and the losers have "lost":
+blame the immigrants and foreigners and start building up your military as everyone
+prepares to reset the game board.
 """
   , viewHomeLink
   ]
