@@ -349,6 +349,35 @@ immiserated population of "losers". If I were to hazard a guess, we seem to be h
 the usual direction things go when the winners have "won" and the losers have "lost":
 blame the immigrants and foreigners and start building up your military as everyone
 prepares to reset the game board.
+
+# Epilogue: The Heretical Hobo
+
+I don't know what reality is or how it works and I certainly don't know what the future
+holds. What I do know is that a lot is in flux and much of what we take for granted is
+built on extremely shaky foundations.  From an economic perspective I can see two likely
+outcomes. The first is what economists call a "deflationary spiral".  This is generally
+seen as being quite bad.  The second is what economists call a "hyper-inflationary
+spiral".  This is more or less the exact opposite in every way except that it is also
+generally viewed as being very much not ideal.  The only way out I can see is if by some
+miracle somebody with a lot of power and resources uses their power and resources to
+cause power and resources to be redistributed in a pretty significant way.  I don't see
+this outcome as being terribly likely.  The "American" (or in my case Canadian) dream is
+to start a family, buy a house, work until retirement, and then I don't know... spend a
+lot of time on beaches or cruise ships or something.  That outcome seems impractical and
+unlikely at this point.  First off: starting a family would require someone weird enough
+to want to spend their life with a weirdo like me (not out of the question; but given the
+alienation created by late-stage capitalism and the social-media induced personality
+disorders and/or mental illnesses we're mostly all suffering from at this point: easier
+said than done).  Second: buying a house is really only a good idea if the outcome is a
+hyper-inflationary spiral... At best I'd give that a 50/50.
+
+So instead... I bought a van.  In case there _is_ a hyper-inflationary spiral my van is
+an asset and should appreciate in value such that I can potentially sell it down the road
+and use the money to make a down-payment on an actual brick-and-mortar home.  In the
+(perhaps more likely) event of a deflationary spiral... assuming I somehow don't lose my
+job and have the van repossesed because I can no longer afford the payments on the auto
+loan, then I have myself a lifeboat on which to escape from civilizational/social
+collapse.  Whatever the future holds, it ought to be interesting.
 """
   , viewHomeLink
   ]
